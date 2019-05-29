@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="105758" started-at="2019-05-29T19:53:24Z" finished-at="2019-05-29T19:55:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="105758" started-at="2019-05-29T19:53:24Z" finished-at="2019-05-29T19:55:10Z">
+      <class name="com.crm.test.TestCases.NewPersonTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.TestCases.NewPersonTest@c11813a3]" name="setUp" is-config="true" duration-ms="15053" started-at="2019-05-30T01:23:24Z" finished-at="2019-05-30T01:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addPersonDetails()[pri:1, instance:com.crm.test.TestCases.NewPersonTest@c11813a3]" name="addPersonDetails" duration-ms="7480" started-at="2019-05-30T01:23:39Z" finished-at="2019-05-30T01:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPersonDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.TestCases.NewPersonTest@c11813a3]" name="tearDown" is-config="true" duration-ms="1399" started-at="2019-05-30T01:23:46Z" finished-at="2019-05-30T01:23:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.TestCases.NewPersonTest@c11813a3]" name="setUp" is-config="true" duration-ms="17659" started-at="2019-05-30T01:23:48Z" finished-at="2019-05-30T01:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddedPerson()[pri:2, instance:com.crm.test.TestCases.NewPersonTest@c11813a3]" name="verifyAddedPerson" duration-ms="63163" started-at="2019-05-30T01:24:05Z" finished-at="2019-05-30T01:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedPerson -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.TestCases.NewPersonTest@c11813a3]" name="tearDown" is-config="true" duration-ms="969" started-at="2019-05-30T01:25:09Z" finished-at="2019-05-30T01:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.test.TestCases.NewPersonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
