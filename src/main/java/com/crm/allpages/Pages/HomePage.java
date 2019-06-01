@@ -21,10 +21,10 @@ public class HomePage extends BasePage
 	@FindBy(xpath="//a[contains(text(),'Add Case')]")
 	WebElement addCase;
 	
-	@FindBy(xpath="//div[@id='ember41']")
+	@FindBy(xpath="//img[@alt='Profile picture']")
 	WebElement accountInfo;
 	
-	@FindBy(xpath="//a[@id='ember95']")
+	@FindBy(xpath="//a[text()='Account Settings']")
 	WebElement accountSetting;
 	
 	@FindBy(xpath="//a[contains(text(),'Log out')]")
@@ -60,5 +60,13 @@ public class HomePage extends BasePage
 	{
 		caseImage.click();
 		return new CasePage();
+	}
+	
+	public AccountSetting getAccountSettingPage()
+	{
+		accountInfo.click();
+		accountSetting.click();
+		
+		return new AccountSetting();
 	}
 }
