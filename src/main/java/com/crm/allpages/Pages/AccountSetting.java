@@ -1,5 +1,6 @@
 package com.crm.allpages.Pages;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -202,6 +203,7 @@ public class AccountSetting extends BasePage
 	
 	public String opportunitiesLink()
 	{
+		
 		opportunitiesLink.click();
 		
 		return opportunitiesHeader.getText();
@@ -218,11 +220,6 @@ public class AccountSetting extends BasePage
 	public String taskCategoriesLink()
 	{
 		taskCategoriesLink.click();
-		
-		addCategory.click();
-		categoryName.sendKeys(prop.getProperty("cname"));
-		saveCategory.click();
-		
 		return taskCategoriesHeader.getText();
 	}
 	

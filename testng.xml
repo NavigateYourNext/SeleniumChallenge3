@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Challenge 3">
+
+	<test name="Selenium Challenge 3 Test Caes">
+
+		<classes>
+
+			<class name="com.crm.test.TestCases.CasePageTest" />
+			<class name="com.crm.test.TestCases.AccountPageTest" />
+		</classes>
+
+	</test>
+</suite>

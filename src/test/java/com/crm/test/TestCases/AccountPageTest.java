@@ -30,7 +30,7 @@ public class AccountPageTest extends BasePage
 		homePage = loginPage.logIn(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
-	/*@Test(priority=1)
+	@Test(priority=1)
 	public void verifyAccountSettingsPageHeader()
 	{
 		accountSetting = homePage.getAccountSettingPage();
@@ -84,23 +84,23 @@ public class AccountPageTest extends BasePage
 		accountSetting = homePage.getAccountSettingPage();
 		String title = accountSetting.usersLink();
 		Assert.assertEquals("Users Header Mismatched...", "Users", title);
-	}*/
+	}
 	
-	@Test(priority=8)
+	/*@Test(priority=8)
 	public void clickOnOpportunitesLink()
 	{
 		accountSetting = homePage.getAccountSettingPage();
 		String title = accountSetting.opportunitiesLink();
 		Assert.assertEquals("Opportunities Header Mismatched...", "Opportunities", title);
-	}
+	}*/
 	
-/*	@Test(priority=9)
+	@Test(priority=9)
 	public void clickOnTrackLink()
 	{
 		accountSetting = homePage.getAccountSettingPage();
 		String title = accountSetting.trackLink();
 		Assert.assertEquals("Tracks Header Mismatched...", "Tracks", title);
-	}*/
+	}
 	
 	@Test(priority=10)
 	public void clickOnTaskCategoriesLink()
@@ -110,7 +110,7 @@ public class AccountPageTest extends BasePage
 		Assert.assertEquals("Task Categories Header Mismatched...", "Task Categories", title);
 	}
 	
-	/*@Test(priority=11)
+	@Test(priority=11)
 	public void clickOnCustomFiledsLink()
 	{
 		accountSetting = homePage.getAccountSettingPage();
@@ -141,7 +141,7 @@ public class AccountPageTest extends BasePage
 		String title = accountSetting.trashLink();
 		Assert.assertEquals("Trash Header Mismatched...", "Trash", title);
 	}
-	*/
+	
 	
 	
 	@AfterMethod

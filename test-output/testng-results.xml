@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="3" passed="1">
+<testng-results skipped="0" failed="2" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89774" started-at="2019-06-01T16:26:32Z" finished-at="2019-06-01T16:28:02Z">
+  <suite name="Default suite" duration-ms="68878" started-at="2019-06-01T16:45:44Z" finished-at="2019-06-01T16:46:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89774" started-at="2019-06-01T16:26:32Z" finished-at="2019-06-01T16:28:02Z">
+    <test name="Default test" duration-ms="68878" started-at="2019-06-01T16:45:44Z" finished-at="2019-06-01T16:46:53Z">
       <class name="com.crm.test.TestCases.AccountPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.TestCases.AccountPageTest@9004ab7a]" name="setUp" is-config="true" duration-ms="17769" started-at="2019-06-01T21:56:32Z" finished-at="2019-06-01T21:56:50Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.TestCases.AccountPageTest@29903f2]" name="setUp" is-config="true" duration-ms="15990" started-at="2019-06-01T22:15:44Z" finished-at="2019-06-01T22:16:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="clickOnOpportunitesLink()[pri:8, instance:com.crm.test.TestCases.AccountPageTest@9004ab7a]" name="clickOnOpportunitesLink" duration-ms="32229" started-at="2019-06-01T21:56:50Z" finished-at="2019-06-01T21:57:22Z">
+        <test-method status="FAIL" signature="clickOnOpportunitesLink()[pri:8, instance:com.crm.test.TestCases.AccountPageTest@29903f2]" name="clickOnOpportunitesLink" duration-ms="32032" started-at="2019-06-01T22:16:00Z" finished-at="2019-06-01T22:16:32Z">
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[element not interactable
@@ -21,8 +21,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'PUNHJW256997L', ip: '10.110.39.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\akshay.shete\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54873}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: f4bc69c07f11268cd3d88fb3a7af8ea0]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\akshay.shete\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64029}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: a09802457e788502143e574d3de38705]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
@@ -32,8 +32,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'PUNHJW256997L', ip: '10.110.39.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\akshay.shete\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54873}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: f4bc69c07f11268cd3d88fb3a7af8ea0
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\akshay.shete\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64029}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: a09802457e788502143e574d3de38705
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -54,7 +54,7 @@ Session ID: f4bc69c07f11268cd3d88fb3a7af8ea0
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at com.crm.allpages.Pages.AccountSetting.opportunitiesLink(AccountSetting.java:205)
+	at com.crm.allpages.Pages.AccountSetting.opportunitiesLink(AccountSetting.java:207)
 	at com.crm.test.TestCases.AccountPageTest.clickOnOpportunitesLink(AccountPageTest.java:93)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -86,15 +86,15 @@ Session ID: f4bc69c07f11268cd3d88fb3a7af8ea0
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnOpportunitesLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.TestCases.AccountPageTest@9004ab7a]" name="tearDown" is-config="true" duration-ms="891" started-at="2019-06-01T21:57:22Z" finished-at="2019-06-01T21:57:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.TestCases.AccountPageTest@29903f2]" name="tearDown" is-config="true" duration-ms="878" started-at="2019-06-01T22:16:32Z" finished-at="2019-06-01T22:16:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.TestCases.AccountPageTest@9004ab7a]" name="setUp" is-config="true" duration-ms="14957" started-at="2019-06-01T21:57:23Z" finished-at="2019-06-01T21:57:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.TestCases.AccountPageTest@29903f2]" name="setUp" is-config="true" duration-ms="15237" started-at="2019-06-01T22:16:33Z" finished-at="2019-06-01T22:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="clickOnTaskCategoriesLink()[pri:10, instance:com.crm.test.TestCases.AccountPageTest@9004ab7a]" name="clickOnTaskCategoriesLink" duration-ms="3567" started-at="2019-06-01T21:57:38Z" finished-at="2019-06-01T21:57:42Z">
+        <test-method status="FAIL" signature="clickOnTaskCategoriesLink()[pri:10, instance:com.crm.test.TestCases.AccountPageTest@29903f2]" name="clickOnTaskCategoriesLink" duration-ms="3762" started-at="2019-06-01T22:16:49Z" finished-at="2019-06-01T22:16:52Z">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -104,8 +104,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'PUNHJW256997L', ip: '10.110.39.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\akshay.shete\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54923}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 51cdc8a70328fab898c25f0300d7a515]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\akshay.shete\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64079}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 9775b77a0dbfbbf098f8351d64e0da28]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -115,8 +115,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'PUNHJW256997L', ip: '10.110.39.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\akshay.shete\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54923}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 51cdc8a70328fab898c25f0300d7a515
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\akshay.shete\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64079}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 9775b77a0dbfbbf098f8351d64e0da28
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -137,7 +137,7 @@ Session ID: 51cdc8a70328fab898c25f0300d7a515
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy6.sendKeys(Unknown Source)
-	at com.crm.allpages.Pages.AccountSetting.taskCategoriesLink(AccountSetting.java:223)
+	at com.crm.allpages.Pages.AccountSetting.taskCategoriesLink(AccountSetting.java:228)
 	at com.crm.test.TestCases.AccountPageTest.clickOnTaskCategoriesLink(AccountPageTest.java:109)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -169,19 +169,7 @@ Session ID: 51cdc8a70328fab898c25f0300d7a515
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnTaskCategoriesLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.TestCases.AccountPageTest@9004ab7a]" name="tearDown" is-config="true" duration-ms="890" started-at="2019-06-01T21:57:42Z" finished-at="2019-06-01T21:57:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.TestCases.AccountPageTest@9004ab7a]" name="setUp" is-config="true" duration-ms="15597" started-at="2019-06-01T21:57:43Z" finished-at="2019-06-01T21:57:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickOnIntegrationsLink()[pri:12, instance:com.crm.test.TestCases.AccountPageTest@9004ab7a]" name="clickOnIntegrationsLink" duration-ms="2904" started-at="2019-06-01T21:57:58Z" finished-at="2019-06-01T21:58:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnIntegrationsLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.TestCases.AccountPageTest@9004ab7a]" name="tearDown" is-config="true" duration-ms="891" started-at="2019-06-01T21:58:01Z" finished-at="2019-06-01T21:58:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.TestCases.AccountPageTest@29903f2]" name="tearDown" is-config="true" duration-ms="892" started-at="2019-06-01T22:16:52Z" finished-at="2019-06-01T22:16:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
