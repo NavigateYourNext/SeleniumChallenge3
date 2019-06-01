@@ -21,6 +21,9 @@ public class NewPerson extends BasePage
 	@FindBy(xpath="//input[@name='party:lnDecorate:ln']")
 	WebElement lastName;
 	
+	@FindBy(xpath="//input[@id='party:orgDecorate:org']")
+	WebElement organisation;
+	
 	@FindBy(xpath="//input[@name='party:save']")
 	WebElement save;
 	
@@ -32,13 +35,14 @@ public class NewPerson extends BasePage
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void addPersonDetails(String fname, String lname)
+	public void addPersonDetails(String fname, String lname, String org)
 	{
 		Select s = new Select(title);
 		s.selectByIndex(1);
 		
 		firstName.sendKeys(fname);
 		lastName.sendKeys(lname);
+		organisation.sendKeys(org);
 		
 		save.click();
 		

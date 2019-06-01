@@ -1,37 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="105758" started-at="2019-05-29T19:53:24Z" finished-at="2019-05-29T19:55:10Z">
+  <suite name="Default suite" duration-ms="170025" started-at="2019-06-01T12:29:13Z" finished-at="2019-06-01T12:32:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="105758" started-at="2019-05-29T19:53:24Z" finished-at="2019-05-29T19:55:10Z">
-      <class name="com.crm.test.TestCases.NewPersonTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.TestCases.NewPersonTest@c11813a3]" name="setUp" is-config="true" duration-ms="15053" started-at="2019-05-30T01:23:24Z" finished-at="2019-05-30T01:23:39Z">
+    <test name="Default test" duration-ms="170025" started-at="2019-06-01T12:29:13Z" finished-at="2019-06-01T12:32:03Z">
+      <class name="com.crm.test.TestCases.CasePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.TestCases.CasePageTest@4fe70d4e]" name="setUp" is-config="true" duration-ms="20952" started-at="2019-06-01T17:59:13Z" finished-at="2019-06-01T17:59:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addPersonDetails()[pri:1, instance:com.crm.test.TestCases.NewPersonTest@c11813a3]" name="addPersonDetails" duration-ms="7480" started-at="2019-05-30T01:23:39Z" finished-at="2019-05-30T01:23:46Z">
+        <test-method status="PASS" signature="addPersonDetails()[pri:1, instance:com.crm.test.TestCases.CasePageTest@4fe70d4e]" name="addPersonDetails" duration-ms="9743" started-at="2019-06-01T17:59:34Z" finished-at="2019-06-01T17:59:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addPersonDetails -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.TestCases.NewPersonTest@c11813a3]" name="tearDown" is-config="true" duration-ms="1399" started-at="2019-05-30T01:23:46Z" finished-at="2019-05-30T01:23:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.TestCases.CasePageTest@4fe70d4e]" name="tearDown" is-config="true" duration-ms="937" started-at="2019-06-01T17:59:43Z" finished-at="2019-06-01T17:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.TestCases.NewPersonTest@c11813a3]" name="setUp" is-config="true" duration-ms="17659" started-at="2019-05-30T01:23:48Z" finished-at="2019-05-30T01:24:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.TestCases.CasePageTest@4fe70d4e]" name="setUp" is-config="true" duration-ms="14651" started-at="2019-06-01T17:59:44Z" finished-at="2019-06-01T17:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAddedPerson()[pri:2, instance:com.crm.test.TestCases.NewPersonTest@c11813a3]" name="verifyAddedPerson" duration-ms="63163" started-at="2019-05-30T01:24:05Z" finished-at="2019-05-30T01:25:09Z">
+        <test-method status="PASS" signature="verifyAddedPerson()[pri:2, instance:com.crm.test.TestCases.CasePageTest@4fe70d4e]" name="verifyAddedPerson" duration-ms="64871" started-at="2019-06-01T17:59:59Z" finished-at="2019-06-01T18:01:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddedPerson -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.TestCases.NewPersonTest@c11813a3]" name="tearDown" is-config="true" duration-ms="969" started-at="2019-05-30T01:25:09Z" finished-at="2019-05-30T01:25:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.TestCases.CasePageTest@4fe70d4e]" name="tearDown" is-config="true" duration-ms="907" started-at="2019-06-01T18:01:04Z" finished-at="2019-06-01T18:01:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.test.TestCases.NewPersonTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.TestCases.CasePageTest@4fe70d4e]" name="setUp" is-config="true" duration-ms="23108" started-at="2019-06-01T18:01:05Z" finished-at="2019-06-01T18:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCase()[pri:3, instance:com.crm.test.TestCases.CasePageTest@4fe70d4e]" name="addCase" duration-ms="11534" started-at="2019-06-01T18:01:28Z" finished-at="2019-06-01T18:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.TestCases.CasePageTest@4fe70d4e]" name="tearDown" is-config="true" duration-ms="879" started-at="2019-06-01T18:01:39Z" finished-at="2019-06-01T18:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.TestCases.CasePageTest@4fe70d4e]" name="setUp" is-config="true" duration-ms="17030" started-at="2019-06-01T18:01:40Z" finished-at="2019-06-01T18:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddedCase()[pri:4, instance:com.crm.test.TestCases.CasePageTest@4fe70d4e]" name="verifyAddedCase" duration-ms="4462" started-at="2019-06-01T18:01:57Z" finished-at="2019-06-01T18:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.TestCases.CasePageTest@4fe70d4e]" name="tearDown" is-config="true" duration-ms="912" started-at="2019-06-01T18:02:02Z" finished-at="2019-06-01T18:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.test.TestCases.CasePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

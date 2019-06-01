@@ -5,19 +5,21 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.crm.allpages.Pages.CasePage;
 import com.crm.allpages.Pages.HomePage;
 import com.crm.allpages.Pages.LoginPage;
 import com.crm.allpages.Pages.NewPerson;
 import com.crm.base.BasePage.BasePage;
 
-public class NewPersonTest extends BasePage
+public class CasePageTest extends BasePage
 {
 
 	LoginPage loginPage = null;
 	HomePage homePage = null;
 	NewPerson newPerson = null;
+	CasePage casePage = null;
 	
-	public NewPersonTest()
+	public CasePageTest()
 	{
 		super();
 	}
@@ -35,7 +37,7 @@ public class NewPersonTest extends BasePage
 	{
 		newPerson = homePage.clickPersonImage();
 		newPerson.addPersonDetails(prop.getProperty("firstName"),prop.getProperty("lastName"),prop.getProperty("organisation"));
-		homePage.clickPersonImage();
+		homePage.clickImage();
 	}
 	
 	@Test(priority=2)
@@ -43,6 +45,21 @@ public class NewPersonTest extends BasePage
 	{
 		newPerson = homePage.clickImage();
 		boolean value = newPerson.verifyAddedPersonDetails();
+		Assert.assertTrue(value);
+	}
+	
+	@Test(priority=3)
+	public void addCase()throws Exception
+	{
+		casePage = homePage.clickCase();
+		casePage.addCase();
+	}
+	
+	@Test(priority=4)
+	public void verifyAddedCase()
+	{
+		casePage = homePage.clickCaseLink();
+		boolean value = casePage.verifyCorrectCaseAndStatus(prop.getProperty("firstName"),prop.getProperty("lastName"),prop.getProperty("organisation"));
 		Assert.assertTrue(value);
 	}
 	
